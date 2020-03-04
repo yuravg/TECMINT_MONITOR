@@ -1,0 +1,66 @@
+
+* 1. lsb_release -a
+
+Distributor ID: Debian
+Description:    Debian GNU/Linux 9.12 (stretch)
+Release:        9.12
+Codename:       stretch
+
+* uname
+-s, --kernel-name        print the kernel name
+-n, --nodename           print the network node hostname
+-r, --kernel-release     print the kernel release
+-v, --kernel-version     print the kernel version
+-m, --machine            print the machine hardware name
+-p, --processor          print the processor type (non-portable)
+-i, --hardware-platform  print the hardware platform (non-portable)
+-o, --operating-system   print the operating system
+--help     display this help and exit
+--version  output version information and exit
+
+tecmint_monitor $ uname -s
+Linux
+
+tecmint_monitor $ uname -n
+host-name
+
+tecmint_monitor $ uname -r
+4.9.0-11-amd64
+
+tecmint_monitor $ uname -v
+#1 SMP Debian 4.9.189-3+deb9u2 (2019-11-11)
+
+tecmint_monitor $ uname -m
+x86_64
+
+tecmint_monitor $ uname -p
+unknown
+tecmint_monitor $ uname -i
+unknown
+
+tecmint_monitor $ uname -o
+
+* Fedora /etc/os-release
+
+GNU/Linux
+NAME=Fedora
+VERSION="31 (Workstation Edition)"
+ID=fedora
+VERSION_ID=31
+VERSION_CODENAME=""
+PLATFORM_ID="platform:f31"
+PRETTY_NAME="Fedora 31 (Workstation Edition)"
+ANSI_COLOR="0;34"
+LOGO=fedora-logo-icon
+CPE_NAME="cpe:/o:fedoraproject:fedora:31"
+HOME_URL="https://fedoraproject.org/"
+DOCUMENTATION_URL="https://docs.fedoraproject.org/en-US/fedora/f31/system-administrators-guide/"
+SUPPORT_URL="https://fedoraproject.org/wiki/Communicating_and_getting_help"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+REDHAT_BUGZILLA_PRODUCT="Fedora"
+REDHAT_BUGZILLA_PRODUCT_VERSION=31
+REDHAT_SUPPORT_PRODUCT="Fedora"
+REDHAT_SUPPORT_PRODUCT_VERSION=31
+PRIVACY_POLICY_URL="https://fedoraproject.org/wiki/Legal:PrivacyPolicy"
+VARIANT="Workstation Edition"
+VARIANT_ID=workstation
