@@ -3,6 +3,8 @@ SCRIPT=tecmint_monitor.sh
 SCRIPT_OUT=tecmint_monitor
 BINPREFIX=/usr/local/bin
 
+.PHONY: install uninstall
+
 default: install
 
 install:
